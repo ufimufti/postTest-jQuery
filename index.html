@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>latihan jquery</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js">
+      
+    
+    </script>
+    <style>
+        #panel, #flip, #flipD, #flipT {
+            padding: 8px;
+            text-align: center;
+            background-color: cornflowerblue;
+            border:solid 1px darkblue;
+        }
+        #panel {
+            padding: 50px;
+
+        }
+    </style>
+</head>
+<body>
+    <h3>jQuery Selectors (#id, .class, element), hide(), show(), click()</h3>
+        <h4>element selector</h4>
+        <p>Paragraf pertama</p>
+        <p>paragraf kedua</p>
+        <button id="buttonA">klik saya untuk menyembunyikan paragraf</button>
+        <br>
+        <button id="buttonB">klik saya untuk menampilkan paragraf</button>
+        <br>
+        <h4>id and class selector</h4>
+        <p>ini sebuah paragraf</p>
+        <p id="coba">ini paragraf lain yang memiliki id</p>
+        <p class="coba">ini paragraf yang memiliki class</p>
+        <button id="buttonId">klik aku lah, hilangkan id</button>
+        <button id="buttonIdShow">klik aku lah, tampilkan id</button>
+        <br>
+        <button id="buttonClass">klik aku lah, hilangkan class</button>
+        <button id="buttonClassShow">klik aku lah, hilangkan class</button>
+        <button id="buttonClickMe">events: click()</button>
+    <br>
+    <h3>jQuery events: focus, blur</h3>
+    Name: <input type="text" name="fullname"><br>
+    Email: <input type="text" name="email">
+    <br>
+    <h3>jQuery effects: slideUp, slideDown, slideToggle</h3>
+    <div id="flip">klik ini untuk lihat panel keatas </div>
+    <div id="flipD">klik ini untuk lihat panel kebawah</div>
+    <div id="flipT">klik ini dua kali</div>
+    <div id="panel">ciluk ba</div>
+
+    <h3>jQuery Get: val()</h3>
+    <p>Name: <input type="text" id="test" value="kipaskipas"></p>
+    <button id="buttonD">Show Value</button>
+
+    <h3>jQuery Get: text(), html()</h3>
+    <p id="test2">ini <strong>sebagian</strong> teks <b>bold</b>dalam sebuah paragraf</p>
+    <button id="btn1">Show text</button>
+    <button id="btn2">Show HTML</button>
+    
+    <h3>jQuery effects: animate</h3>
+    <button id="buttonC">Start Animation</button>
+    <div id= "animate"style="background:#a70bd6;height:100px;width:100px;position:absolute;"></div>
+    
+    <script src="main.js"></script>
+</body>
+</html>
